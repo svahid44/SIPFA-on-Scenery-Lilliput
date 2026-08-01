@@ -1,0 +1,8 @@
+parameter,value
+seed,0x243F6A8885A308D3
+target_ineffective,512
+total_queries,3070
+ineffective_count,512
+effective_count,2558
+theoretical_rate,0.164132936375
+empirical_rate,0.166775244300

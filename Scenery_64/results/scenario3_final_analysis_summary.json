@@ -1,0 +1,33 @@
+{
+  "repeated_trials": 100,
+  "sample_grid": [
+    512,
+    1024,
+    1536,
+    2048,
+    3072,
+    4096,
+    6144,
+    8192,
+    12288,
+    16384,
+    24576,
+    32768
+  ],
+  "minimum_samples_for_at_least_95_percent_complete_key_success": 16384,
+  "observed_success_at_95_threshold": 0.99,
+  "minimum_samples_for_at_least_99_percent_complete_key_success": 16384,
+  "observed_success_at_99_threshold": 0.99,
+  "maximum_grid_success_rate": 1.0,
+  "maximum_grid_word_success_rate": 1.0,
+  "theoretical_ineffective_rate": 0.164132936375,
+  "fixed_campaign_published_outputs": 262144,
+  "fixed_campaign_internal_ineffective": 43547,
+  "fixed_campaign_infected": 218597,
+  "fixed_campaign_empirical_rate": 0.166118621826,
+  "recovered_sk28": "0xA3B7389D",
+  "actual_sk28": "0xA3B7389D",
+  "figures": 13,
+  "figure_files": 39,
+  "table_files": 17
+}

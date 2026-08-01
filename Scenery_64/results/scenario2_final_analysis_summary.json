@@ -1,0 +1,31 @@
+{
+  "repeated_trials": 100,
+  "sample_grid": [
+    64,
+    96,
+    128,
+    160,
+    192,
+    256,
+    320,
+    384,
+    512
+  ],
+  "maximum_samples": 512,
+  "localization_success_at_max": 1.0,
+  "unique_delta_success_at_max": 1.0,
+  "target_18_of_20_plus_delta_success_at_max": 1.0,
+  "actual_candidate_retention_at_max": 1.0,
+  "mean_recovered_bits_at_max": 18.0,
+  "median_surviving_candidates_at_max": 4.0,
+  "theoretical_ineffective_rate": 0.164132936375,
+  "fixed_surviving_candidates": 4,
+  "fixed_recovered_active_bits": 18,
+  "fixed_active_key_bits": 20,
+  "fixed_recovered_delta": "0xB",
+  "fixed_actual_candidate_present": "YES",
+  "honest_final_result": "18/20 active key bits + unique delta; four structural candidates",
+  "figures": 13,
+  "figure_files": 39,
+  "table_files": 24
+}

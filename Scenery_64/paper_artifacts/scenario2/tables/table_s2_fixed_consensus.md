@@ -1,0 +1,7 @@
+| Role | S-box | Mask | Value | Known bits |
+|---|---|---|---|---|
+| A | 4 | 0xF | 0xE | 4 |
+| B | 5 | 0xF | 0x7 | 4 |
+| C | 7 | 0x3 | 0x3 | 2 |
+| D | 0 | 0xF | 0xB | 4 |
+| E | 1 | 0xF | 0x3 | 4 |
