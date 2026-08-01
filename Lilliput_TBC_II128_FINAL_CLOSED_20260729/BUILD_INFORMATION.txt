@@ -1,0 +1,11 @@
+Build date:
+Sun Jul 26 19:07:15 +0330 2026
+
+Linux GCC:
+gcc (Ubuntu 13.3.0-6ubuntu2~24.04.1) 13.3.0
+
+Windows cross compiler:
+x86_64-w64-mingw32-gcc (GCC) 13-win32
+
+Make:
+GNU Make 4.3

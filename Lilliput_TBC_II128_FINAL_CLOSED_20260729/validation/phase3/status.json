@@ -1,0 +1,19 @@
+{
+  "phase": 3,
+  "scope": "SIPFA Algorithm 1 iterative recovery for Scenario 1",
+  "status": "PASS",
+  "recovered_rtk31": "b3ed58adabab101d",
+  "recovered_rtk30": "8ae2660cd1ea6cc0",
+  "same_dataset_reused": true,
+  "target_ineffective_samples": 5000,
+  "tested_faults": [
+    {"delta": "0x00", "fault_xor": "0x01", "queries": 13706},
+    {"delta": "0x5a", "fault_xor": "0x80", "queries": 13964},
+    {"delta": "0xff", "fault_xor": "0x5a", "queries": 13665}
+  ],
+  "gcc_werror": "PASS",
+  "clang_werror": "PASS",
+  "asan_ubsan": "PASS",
+  "master_key_recovery": "NOT_IMPLEMENTED",
+  "out_of_article_extensions": []
+}

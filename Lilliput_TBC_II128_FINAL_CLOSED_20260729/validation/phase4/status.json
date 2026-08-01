@@ -1,0 +1,26 @@
+{
+  "phase": 4,
+  "name": "Scenario-1 full 128-bit master-key recovery",
+  "status": "PASS",
+  "scope": "Known fault + detection-based; RTK[31] -> RTK[30] -> master key",
+  "article_boundary": {
+    "sipfa_algorithm": "Algorithm 1",
+    "cipher_specific_step": "Exact inversion of the official Lilliput-TBC-II-128 tweakey schedule",
+    "new_fault_model_used": false,
+    "missed_fault_used": false,
+    "noise_extension_used": false,
+    "multiple_fault_extension_used": false
+  },
+  "equations": 128,
+  "rank": 128,
+  "unique_solution": true,
+  "recovered_rtk31": "b3ed58adabab101d",
+  "recovered_rtk30": "8ae2660cd1ea6cc0",
+  "recovered_master_key": "000102030405060708090a0b0c0d0e0f",
+  "validation_ciphertext": "fdb0d1a0b68a8e3c9579e9aa7a5704b9",
+  "random_key_tweak_cases": 256,
+  "gcc_werror": "PASS",
+  "clang_werror": "PASS",
+  "asan_ubsan": "PASS",
+  "all_previous_tests": "PASS"
+}

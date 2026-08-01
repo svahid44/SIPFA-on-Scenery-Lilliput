@@ -1,0 +1,47 @@
+% Add these packages to the preamble:
+%
+% \usepackage{graphicx}
+% \usepackage{booktabs}
+% \usepackage{siunitx}
+% \usepackage{tabularx}
+% \usepackage{subcaption}
+%
+% Load generated commands:
+% \input{paper_artifacts/latex/commands.tex}
+
+\begin{figure}[t]
+    \centering
+    \includegraphics[width=\columnwidth]
+    {paper_artifacts/figures/ineffective_rate_comparison.pdf}
+    \caption{Comparison between the theoretical and empirical
+    ineffective-event rates.}
+    \label{fig:ineffective-rate}
+\end{figure}
+
+\begin{figure}[t]
+    \centering
+    \includegraphics[width=\columnwidth]
+    {paper_artifacts/figures/sample_complexity.pdf}
+    \caption{Observed query or published-sample complexity of the
+    evaluated SIPFA scenarios.}
+    \label{fig:sample-complexity}
+\end{figure}
+
+\begin{figure*}[t]
+    \centering
+    \includegraphics[width=0.92\textwidth]
+    {paper_artifacts/figures/scenario4_sei_all_candidates.pdf}
+    \caption{Aggregate SEI score over all 256 fault-input candidates
+    in Scenario~4.}
+    \label{fig:scenario4-all-sei}
+\end{figure*}
+
+\input{paper_artifacts/tables/scenario_summary.tex}
+
+\input{paper_artifacts/tables/recovered_values.tex}
+
+% If Scenario 3 results are available:
+% \input{paper_artifacts/tables/scenario3_lane_recovery.tex}
+
+% If Scenario 4 candidates are available:
+% \input{paper_artifacts/tables/scenario4_top_candidates.tex}

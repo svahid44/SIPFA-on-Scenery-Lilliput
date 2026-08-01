@@ -1,0 +1,5 @@
+scenario,fault_knowledge,countermeasure,method,queries_or_samples,ineffective_samples,effective_samples,ineffective_rate,recovered_fault,actual_fault,recovered_rtk31,actual_rtk31,status,source_log
+1,Known,Detection-based,Missing-value analysis,11041,4000,4000,0.362286,0x5a,,b3ed58adabab101d,,PASS,/home/svahid44/projects/lilliput_phase2/Lilliput_TBC_II128_phase2/results/final_all_tests.log
+2,Unknown,Detection-based,Candidate filtering,11268,4000,4000,0.354988,0x5a,0x5a,b3ed58adabab101d,b3ed58adabab101d,PASS,/home/svahid44/projects/lilliput_phase2/Lilliput_TBC_II128_phase2/results/scenario2_run.log
+3,Known,Infection-based,Minimum histogram,100000,36829,63171,0.36829,,,b3ed58adabab101d,b3ed58adabab101d,PASS,/home/svahid44/projects/lilliput_phase2/Lilliput_TBC_II128_phase2/results/final_scenario3.log
+4,Unknown,Infection-based,SEI ranking,100000,36681,63319,0.36681,0x5a,0x5a,b3ed58adabab101d,b3ed58adabab101d,PASS,/home/svahid44/projects/lilliput_phase2/Lilliput_TBC_II128_phase2/results/final_scenario4.log

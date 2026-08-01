@@ -1,0 +1,41 @@
+Lilliput-TBC-II-128 SIPFA Project Summary
+=========================================
+
+Cipher:
+    Lilliput-TBC-II-128
+
+Block / key / tweak:
+    128 / 128 / 128 bits
+
+Rounds / round tweakey:
+    32 / 64 bits
+
+Recovered values:
+    Fault input delta: 0x5a
+    RTK[31]: b3ed58adabab101d
+    RTK[30]: 8ae2660cd1ea6cc0
+    Master key: 000102030405060708090a0b0c0d0e0f
+
+Implemented SIPFA scenarios:
+    Scenario 1 - Known fault, detection-based
+    Scenario 2 - Unknown fault, detection-based
+    Scenario 3 - Known fault, infection-based
+    Scenario 4 - Unknown fault, infection-based
+
+Complete key-recovery chains:
+    Scenario 1: ciphertext-only ineffective set -> RTK[31] -> RTK[30] -> master key
+    Scenario 4: unlabeled infection outputs -> delta -> RTK[31] -> RTK[30] -> master key
+
+Final algebraic stage:
+    128 equations, GF(2) rank 128, unique solution
+
+Validation:
+    GCC -Werror: PASS
+    Clang -Werror: PASS
+    ASan/UBSan: PASS
+    Three independent Scenario-4 fault cases: PASS
+    Encryption with recovered master key: PASS
+
+Scope:
+    Closed for the stated single persistent S-box fault simulation model.
+    Missed faults, extra noise, multiple faults, and new hardware experiments are out of scope.
