@@ -1,0 +1,11 @@
+parameter,value
+expected_sbox,5
+expected_delta,0xB
+actual_packed_active_key,0x3BB7E
+actual_candidate_rank,1
+actual_score_tie_count,4
+actual_candidate_in_maximum,YES
+actual_consensus_match,YES
+delta_match,YES
+honest_recovery,18/20 bits + unique delta
+status,PASS

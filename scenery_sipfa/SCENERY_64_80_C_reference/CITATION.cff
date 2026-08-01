@@ -1,0 +1,44 @@
+cff-version: 1.2.0
+message: "If you use this software or its experimental artifacts, please cite this repository and the original SIPFA paper."
+title: "SIPFA on SCENERY-64/80"
+type: software
+authors:
+  - family-names: "Soleimani"
+    given-names: "Vahid"
+    orcid: "https://orcid.org/0009-0002-7821-3607"
+version: "1.0.0"
+date-released: "2026-07-31"
+abstract: >-
+  A reproducible C99 implementation of all four Statistical Ineffective
+  Persistent Fault Analysis scenarios on the SCENERY-64/80 lightweight
+  Feistel block cipher, including tests, datasets, repeated experiments,
+  and publication-ready artifacts.
+keywords:
+  - fault analysis
+  - persistent fault
+  - SIPFA
+  - SIFA
+  - lightweight cryptography
+  - Feistel cipher
+  - SCENERY-64/80
+license: "LicenseRef-See-NOTICE"
+references:
+  - type: article
+    title: "SIPFA: Statistical Ineffective Persistent Faults Analysis on Feistel Ciphers"
+    authors:
+      - family-names: "Bagheri"
+        given-names: "Nasour"
+      - family-names: "Sadeghi"
+        given-names: "Sahand"
+      - family-names: "Ravi"
+        given-names: "Prasanna"
+      - family-names: "Bhasin"
+        given-names: "Shivam"
+      - family-names: "Soleimany"
+        given-names: "Hadi"
+    year: 2022
+    journal: "IACR Transactions on Cryptographic Hardware and Embedded Systems"
+    volume: "2022"
+    issue: "3"
+    start: 367
+    end: 390

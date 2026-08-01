@@ -1,0 +1,13 @@
+parameter,value
+target_sbox,3
+known_delta,0x5
+sample_count,32768
+minimum_value,0x9
+minimum_count,1654
+second_minimum_count,2002
+minimum_gap,348
+minimum_multiplicity,1
+recovered_sk28_word,0xC
+actual_sk28_word,0xC
+expected_minimum,0x9
+verified,PASS

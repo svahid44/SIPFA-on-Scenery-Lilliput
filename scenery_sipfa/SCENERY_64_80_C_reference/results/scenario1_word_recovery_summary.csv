@@ -1,0 +1,10 @@
+parameter,value
+target_sbox,3
+known_delta,0x5
+sample_count,4096
+missing_count,1
+missing_value,0x9
+recovered_sk28_word,0xC
+actual_sk28,0xA3B7389D
+actual_sk28_word,0xC
+verified,PASS

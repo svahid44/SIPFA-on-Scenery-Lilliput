@@ -1,0 +1,6 @@
+parameter,value
+sample_count,512
+global_missing_count,1
+detected_sbox,5
+detected_missing_value,0xC
+status,PASS

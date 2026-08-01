@@ -1,0 +1,14 @@
+figure_id,png,pdf,svg,description
+fig_s1_success_vs_samples,fig_s1_success_vs_samples.png,fig_s1_success_vs_samples.pdf,fig_s1_success_vs_samples.svg,"Complete-key and word-level success versus sample count, including 95% Wilson interval."
+fig_s1_failure_probability_log,fig_s1_failure_probability_log.png,fig_s1_failure_probability_log.pdf,fig_s1_failure_probability_log.svg,Residual full-key failure probability on a logarithmic scale.
+fig_s1_mean_recovered_words,fig_s1_mean_recovered_words.png,fig_s1_mean_recovered_words.pdf,fig_s1_mean_recovered_words.svg,Mean number of uniquely identified and correctly recovered SK28 words.
+fig_s1_queries_vs_samples,fig_s1_queries_vs_samples.png,fig_s1_queries_vs_samples.pdf,fig_s1_queries_vs_samples.svg,Mean oracle-query complexity with a 95% confidence interval.
+fig_s1_query_distribution,fig_s1_query_distribution.png,fig_s1_query_distribution.pdf,fig_s1_query_distribution.svg,Boxplots of total query counts at representative sample sizes.
+fig_s1_rate_convergence,fig_s1_rate_convergence.png,fig_s1_rate_convergence.pdf,fig_s1_rate_convergence.svg,Convergence of the empirical ineffective rate to the theoretical model.
+fig_s1_per_sbox_success_heatmap,fig_s1_per_sbox_success_heatmap.png,fig_s1_per_sbox_success_heatmap.pdf,fig_s1_per_sbox_success_heatmap.svg,Per-S-box word-recovery success across the sample grid.
+fig_s1_fixed_rate_by_sbox,fig_s1_fixed_rate_by_sbox.png,fig_s1_fixed_rate_by_sbox.pdf,fig_s1_fixed_rate_by_sbox.svg,Empirical ineffective rate for each final 4096-sample campaign.
+fig_s1_fixed_queries_by_sbox,fig_s1_fixed_queries_by_sbox.png,fig_s1_fixed_queries_by_sbox.pdf,fig_s1_fixed_queries_by_sbox.svg,Total queries and blocked effective events for each campaign.
+fig_s1_fixed_rate_error_by_sbox,fig_s1_fixed_rate_error_by_sbox.png,fig_s1_fixed_rate_error_by_sbox.pdf,fig_s1_fixed_rate_error_by_sbox.svg,Absolute error from the theoretical ineffective rate by S-box.
+fig_s1_histogram_heatmap,fig_s1_histogram_heatmap.png,fig_s1_histogram_heatmap.pdf,fig_s1_histogram_heatmap.svg,Eight 16-bin histograms with unique missing values marked.
+fig_s1_recovered_words,fig_s1_recovered_words.png,fig_s1_recovered_words.pdf,fig_s1_recovered_words.svg,Recovered versus actual four-bit SK28 words.
+fig_s1_missing_values,fig_s1_missing_values.png,fig_s1_missing_values.pdf,fig_s1_missing_values.svg,Unique missing value identified for each S-box campaign.

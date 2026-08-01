@@ -1,0 +1,12 @@
+parameter,value
+target_sbox,3
+known_delta,0x5
+correct_sbox_output,0xE
+faulty_sbox_output,0xF
+seed,0xA4093822299F31D0
+published_count,32768
+internal_ineffective_count,5342
+internal_effective_infected_count,27426
+theoretical_ineffective_rate,0.164132936375
+empirical_ineffective_rate,0.163024902344
+public_columns,sample_index|ciphertext

@@ -1,0 +1,8 @@
+parameter,value
+actual_packed_active_key,0x3BB7E
+actual_candidate_present,YES
+actual_candidate_uniquely_identified,NO
+expected_delta,0xB
+delta_already_recovered_in_step2,YES
+final_claim,18/20 active bits + unique delta
+status,PASS

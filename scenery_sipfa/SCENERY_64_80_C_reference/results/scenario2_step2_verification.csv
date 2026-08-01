@@ -1,0 +1,11 @@
+parameter,value
+secret_sbox,5
+secret_delta,0xB
+recovered_delta,0xB
+actual_sk28,0xA3B7389D
+actual_packed_active_key,0x3BB7E
+candidate_count,4
+actual_candidate_present,YES
+actual_candidate_index,2
+recovered_active_bits,18
+status,PASS
