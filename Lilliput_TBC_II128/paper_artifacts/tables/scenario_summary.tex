@@ -1,0 +1,16 @@
+\begin{table*}[t]
+\centering
+\caption{Summary of the four SIPFA scenarios on Lilliput-TBC-II-128.}
+\label{tab:scenario-summary}
+\small
+\begin{tabular}{clllrrrr}
+\toprule
+Scenario & Fault & Countermeasure & Method & Samples & Ineff. & Rate & Status \\
+\midrule
+1 & Known & Detection-based & Missing-value analysis & 11,041 & 4,000 & 36.23\% & PASS \\
+2 & Unknown & Detection-based & Candidate filtering & 11,268 & 4,000 & 35.50\% & PASS \\
+3 & Known & Infection-based & Minimum histogram & 100,000 & 36,829 & 36.83\% & PASS \\
+4 & Unknown & Infection-based & SEI ranking & 100,000 & 36,681 & 36.68\% & PASS \\
+\bottomrule
+\end{tabular}
+\end{table*}

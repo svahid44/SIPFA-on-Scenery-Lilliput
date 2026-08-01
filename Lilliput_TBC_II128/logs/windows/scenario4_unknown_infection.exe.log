@@ -1,0 +1,39 @@
+Scenario 4: unknown-fault, infection-based SIPFA
+lane  final_minimum  final_SEI       relative_RTK_to_lane0
+   0  0xe9           1.362400e-05  0x00
+   1  0xb7           1.240500e-05  0x5e
+   2  0x02           1.151280e-05  0xeb
+   3  0xf7           1.278600e-05  0x1e
+   4  0xf1           1.276480e-05  0x18
+   5  0xf1           1.087820e-05  0x18
+   6  0x4a           1.131780e-05  0xa3
+   7  0x47           1.242560e-05  0xae
+
+Top SEI-ranked delta candidates:
+rank  delta  aggregate_SEI
+   1  0x5a  9.641340000000e-05
+   2  0xa6  8.604540000000e-05
+   3  0xeb  8.595500000000e-05
+   4  0x4d  8.594620000000e-05
+   5  0x6f  8.581960000000e-05
+   6  0x3f  8.578020000000e-05
+   7  0x45  8.563200000000e-05
+   8  0xe9  8.545960000000e-05
+   9  0xd5  8.529020000000e-05
+  10  0x06  8.509940000000e-05
+
+published samples:      100000
+internal ineffective:   36681
+internal effective:     63319
+ineffective rate:        0.366810
+best aggregate SEI:     9.641340000000e-05
+second aggregate SEI:   8.604540000000e-05
+SEI gap:                1.036800000000e-05
+samples CSV:            results/scenario4_published_ciphertexts.csv
+histogram CSV:          results/scenario4_final_histogram.csv
+candidates CSV:         results/scenario4_candidates.csv
+recovered fault input:  0x5a
+actual fault input:     0x5a
+recovered RTK[31]:      b3ed58adabab101d
+actual RTK[31]:         b3ed58adabab101d
+PASS: Scenario 4 recovered the unknown persistent fault input and complete RTK[31] under an infection-based countermeasure.

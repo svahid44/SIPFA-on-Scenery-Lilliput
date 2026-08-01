@@ -1,0 +1,20 @@
+lane  missing  expected  recovered_rtk  actual_rtk  status
+   0  0xb3   0xb3     0xb3          0xb3        PASS
+   1  0xed   0xed     0xed          0xed        PASS
+   2  0x58   0x58     0x58          0x58        PASS
+   3  0xad   0xad     0xad          0xad        PASS
+   4  0xab   0xab     0xab          0xab        PASS
+   5  0xab   0xab     0xab          0xab        PASS
+   6  0x10   0x10     0x10          0x10        PASS
+   7  0x1d   0x1d     0x1d          0x1d        PASS
+
+queries:             11084
+ineffective samples: 4000
+effective samples:   7084
+ineffective rate:     0.360881
+fault input delta:    0x00
+samples CSV:          results/scenario1_ineffective_samples.csv
+histogram CSV:        results/scenario1_histogram.csv
+recovered RTK[31]:    b3ed58adabab101d
+actual RTK[31]:       b3ed58adabab101d
+PASS: Scenario 1 recovered the complete final-round tweakey.

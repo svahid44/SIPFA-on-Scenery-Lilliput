@@ -1,0 +1,16 @@
+queries:              13706
+ineffective samples:  5000
+effective samples:    8706
+ineffective rate:      0.364804
+fault input delta:     0x00
+recovered RTK[31]:     b3ed58adabab101d
+recovered RTK[30]:     8ae2660cd1ea6cc0
+GF(2) equations:       128
+GF(2) rank:            128
+unique solution:       yes
+recovered master key:  000102030405060708090a0b0c0d0e0f
+actual master key:     000102030405060708090a0b0c0d0e0f
+validation ciphertext: fdb0d1a0b68a8e3c9579e9aa7a5704b9
+samples CSV:           results/scenario1_full_key_samples.csv
+summary CSV:           results/scenario1_full_key_summary.csv
+PASS: Scenario 1 recovered RTK[31], RTK[30], and the full 128-bit master key.

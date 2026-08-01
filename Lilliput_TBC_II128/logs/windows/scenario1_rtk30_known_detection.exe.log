@@ -1,0 +1,12 @@
+queries:              13706
+ineffective samples:  5000
+effective samples:    8706
+ineffective rate:      0.364804
+fault input delta:     0x00
+recovered RTK[31]:     b3ed58adabab101d
+actual RTK[31]:        b3ed58adabab101d
+recovered RTK[30]:     8ae2660cd1ea6cc0
+actual RTK[30]:        8ae2660cd1ea6cc0
+samples CSV:           results/scenario1_rtk30_samples.csv
+summary CSV:           results/scenario1_rtk30_summary.csv
+PASS: Scenario 1 recovered RTK[31] and RTK[30] exactly as in SIPFA Algorithm 1.

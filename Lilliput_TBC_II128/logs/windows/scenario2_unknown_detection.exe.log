@@ -1,0 +1,25 @@
+Scenario 2: unknown-fault, detection-based SIPFA
+lane  final_missing  relative_RTK_to_lane0
+   0  0xe9           0x00
+   1  0xb7           0x5e
+   2  0x02           0xeb
+   3  0xf7           0x1e
+   4  0xf1           0x18
+   5  0xf1           0x18
+   6  0x4a           0xa3
+   7  0x47           0xae
+
+queries:                11268
+ineffective samples:    4000
+effective samples:      7268
+ineffective rate:        0.354988
+initial delta candidates:256
+surviving candidates:   1
+samples CSV:            results/scenario2_ineffective_samples.csv
+histogram CSV:          results/scenario2_final_histogram.csv
+candidates CSV:         results/scenario2_candidates.csv
+recovered fault input:  0x5a
+actual fault input:     0x5a
+recovered RTK[31]:      b3ed58adabab101d
+actual RTK[31]:         b3ed58adabab101d
+PASS: Scenario 2 recovered the unknown persistent fault input and complete RTK[31].

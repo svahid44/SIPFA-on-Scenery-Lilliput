@@ -1,0 +1,22 @@
+Scenario 3: known-fault, infection-based SIPFA
+lane  minimum  min_count  second_min  gap  recovered_rtk  actual_rtk  status
+   0  0xe9           259         343   84  0xb3           0xb3        PASS
+   1  0xb7           251         342   91  0xed           0xed        PASS
+   2  0x02           252         328   76  0x58           0x58        PASS
+   3  0xf7           233         334  101  0xad           0xad        PASS
+   4  0xf1           251         345   94  0xab           0xab        PASS
+   5  0xf1           271         345   74  0xab           0xab        PASS
+   6  0x4a           243         326   83  0x10           0x10        PASS
+   7  0x47           253         338   85  0x1d           0x1d        PASS
+
+known fault input:      0x5a
+published samples:      100000
+internal ineffective:   36829
+internal effective:     63171
+ineffective rate:        0.368290
+samples CSV:            results/scenario3_published_ciphertexts.csv
+histogram CSV:          results/scenario3_final_histogram.csv
+lane summary CSV:       results/scenario3_lane_minima.csv
+recovered RTK[31]:      b3ed58adabab101d
+actual RTK[31]:         b3ed58adabab101d
+PASS: Scenario 3 recovered the complete RTK[31] under a known persistent fault and infection-based countermeasure.

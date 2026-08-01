@@ -1,0 +1,23 @@
+Scenario 4 complete chain: unknown fault + infection-based SIPFA
+published samples:      100000
+internal ineffective:   36681
+internal effective:     63319
+ineffective rate:        0.366810
+recovered fault input:  0x5a
+actual fault input:     0x5a
+best aggregate SEI:     9.641340000000e-05
+second aggregate SEI:   8.604540000000e-05
+SEI gap:                1.036800000000e-05
+recovered RTK[31]:      b3ed58adabab101d
+actual RTK[31]:         b3ed58adabab101d
+recovered RTK[30]:      8ae2660cd1ea6cc0
+actual RTK[30]:         8ae2660cd1ea6cc0
+GF(2) rank:             128
+unique solution:        yes
+recovered master key:   000102030405060708090a0b0c0d0e0f
+actual master key:      000102030405060708090a0b0c0d0e0f
+validation ciphertext:  fdb0d1a0b68a8e3c9579e9aa7a5704b9
+samples CSV:            results/scenario4_full_key_published_ciphertexts.csv
+candidates CSV:         results/scenario4_full_key_candidates.csv
+summary CSV:            results/scenario4_full_key_summary.csv
+PASS: Scenario 4 recovered the unknown fault input, RTK[31], RTK[30], and the full 128-bit master key from unlabeled infection-based ciphertexts.
