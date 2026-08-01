@@ -1,9 +1,0 @@
-CC0 1.0 Universal
-
-This repository is distributed under the Creative Commons CC0 1.0 Universal
-Public Domain Dedication. The upstream Lilliput-AE reference implementation
-files already contain a CC0 dedication in their source headers. Contributors
-should verify that CC0 is the intended license for their original additions
-before publishing the repository.
-
-Full legal text: https://creativecommons.org/publicdomain/zero/1.0/legalcode
