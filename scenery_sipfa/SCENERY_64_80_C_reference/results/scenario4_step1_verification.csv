@@ -1,9 +1,0 @@
-parameter,value
-expected_sbox,5
-expected_delta,0xB
-actual_sk28_word,0x7
-expected_public_minimum,0xC
-localization_match,YES
-minimum_relation_match,YES
-actual_pair_retained,YES
-status,PASS
